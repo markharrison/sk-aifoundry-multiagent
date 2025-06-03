@@ -10,3 +10,8 @@ You'll need an Azure AI Foundry project with the following agents. You can find 
 - Editor Agent
 - Sender Agent
  
+## Example Usage
+
+![screenshot](./docs/scrn1.jpg)
+
+![screenshot](./docs/scrn2.jpg)
