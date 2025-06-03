@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <noWarn>SKEXP0080;SKEXP0110</noWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.Agents.Persistent" Version="1.1.0-beta.1" />
+    <PackageReference Include="Azure.AI.Projects" Version="1.0.0-beta.9" />
+    <PackageReference Include="Azure.Identity" Version="1.14.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0-preview.4.25258.110" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.54.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Agents.AzureAI" Version="1.54.0-preview" />
+    <PackageReference Include="Microsoft.SemanticKernel.Agents.Core" Version="1.54.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Process.Abstractions" Version="1.54.0-alpha" />
+    <PackageReference Include="Microsoft.SemanticKernel.Process.Core" Version="1.54.0-alpha" />
+    <PackageReference Include="Microsoft.SemanticKernel.Process.LocalRuntime" Version="1.54.0-alpha" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
