@@ -2,6 +2,10 @@
 
 In this demo, we will show how to use the Semantic Kernel process framework to orchestrate multiple Azure AI Foundry Agent Service agents.
 
+## Process Flow
+
+![screenshot](./docs/process.png)
+
 ## Prerequisites
 You'll need an Azure AI Foundry project with the following agents. You can find the code to create these agents in the `agents` folder.
 
@@ -40,11 +44,6 @@ Otherwise, approve it and list out the puns and jokes that were in the report.
 Call the SendEmail function. The body must be the report. 
 Address it to mark.harrison@xxxx.com and use HTML instead of markdown.
 ```
-
-## Process Flow
-
-![screenshot](./docs/process.png)
-
 
 ## Example Usage
 
