@@ -40,7 +40,12 @@ Otherwise, approve it and list out the puns and jokes that were in the report.
 Call the SendEmail function. The body must be the report. 
 Address it to mark.harrison@xxxx.com and use HTML instead of markdown.
 ```
- 
+
+## Process Flow
+
+![screenshot](./docs/process.png)
+
+
 ## Example Usage
 
 ![screenshot](./docs/scrn1.jpg)

@@ -1,0 +1,13 @@
+﻿```mermaid
+flowchart TD
+    Start[StartProcess Event] --> init[Init Function]
+    init --> researcher[Researcher Function]
+    researcher --> writer[Writer Function]
+
+    writer -- NeedMoreData Event --> researcher
+    writer --> editor[Editor Function]
+
+    editor -- NeedsEdit Event --> writer
+    editor -- Approved Event --> sender[Sender Function]
+    sender --> Stop[StopProcess]
+```
